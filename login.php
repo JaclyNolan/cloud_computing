@@ -14,7 +14,7 @@
 
 <body>
     <?php
-        $connect = mysqli_connect('localhost','root','','online_shopping_website');
+        $connect = mysqli_connect('localhost','btec_user','Btec@123abc','btec_db');
         // if ($connect) {
         //     echo "Successful connection";
         // } else {

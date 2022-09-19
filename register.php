@@ -62,8 +62,8 @@
         </form>
     </div>
     <?php
-    $connect = mysqli_connect('localhost', 'root', '', 'online_shopping_website');
-    // if ($connect) {
+        $connect = mysqli_connect('localhost','btec_user','Btec@123abc','btec_db');
+        // if ($connect) {
     //     echo "Successful connection";
     // } else {
     //     echo "Unsuccessful connection";

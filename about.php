@@ -12,8 +12,8 @@
 </head>
 <body>
 <?php 
-        $connect = mysqli_connect('localhost','root','','online_shopping_website');
-    ?>
+        $connect = mysqli_connect('localhost','btec_user','Btec@123abc','btec_db');
+        ?>
     <div class="wrapper">
         <div class="menu">
                 <!-- <div class="dropdown">

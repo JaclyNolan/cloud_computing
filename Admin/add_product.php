@@ -70,7 +70,7 @@
         <div class="footer">
         </div>
     <?php 
-        $connect = mysqli_connect('localhost','root','','online_shopping_website');
+        $connect = mysqli_connect('localhost','btec_user','Btec@123abc','btec_db');
         if (isset($_POST['add_product'])) {
             $product_ID = $_POST['product_ID'];
             $product_name = $_POST['product_name'];
